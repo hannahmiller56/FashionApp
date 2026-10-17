@@ -1,0 +1,19 @@
+.DS_Store
+
+# Node / Expo
+mobile/node_modules/
+mobile/.expo/
+mobile/dist-android/
+
+# Env files
+mobile/.env
+supabase/.env.local
+
+# Supabase local state
+.supabase/
+
+# Local service state and credentials
+supabase/.temp/
+.env*
+!.env.example
+!.env.local.example

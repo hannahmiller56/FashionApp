@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "FashionApp",
+    "slug": "fashionapp",
+    "scheme": "fashionapp",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.seananriley.fashionapp"
+    },
+    "web": {},
+    "plugins": [
+      "expo-image-picker",
+      "expo-font"
+    ],
+    "extra": {
+      "supabaseUrl": "${EXPO_PUBLIC_SUPABASE_URL}",
+      "supabaseAnonKey": "${EXPO_PUBLIC_SUPABASE_ANON_KEY}",
+      "eas": {
+        "projectId": "9622d8c7-0631-4e50-81d1-c4fb24d1d735"
+      }
+    }
+  }
+}
